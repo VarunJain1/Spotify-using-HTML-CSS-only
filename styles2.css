@@ -1,0 +1,100 @@
+main {
+  width: 60%;
+  height: 90vh;
+  margin-top: 100px;
+  margin-left: 3vw;
+  margin-right: 2vw;
+  box-sizing: border-box;
+  vertical-align: top;
+  overflow: scroll;
+}
+aside {
+  width: 30%;
+  height: 90vh;
+  margin-top: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+#blocks {
+  height: 40vh;
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+#blocks1 {
+  height: 50vh;
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 10px;
+}
+#queue_heading {
+  display: flex;
+  justify-content: space-between;
+}
+#queue {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#side-songs {
+  width: 100%;
+}
+#side_songs li {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#side_songs img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+i:hover {
+  color: green !important;
+}
+#about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#photo {
+  width: 300pxpx;
+  height: 300px;
+  margin-right: 10px;
+}
+#photo img {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(white, black);
+  opacity: 0.5;
+}
+#heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#buttons {
+  margin: 5px;
+  display: flex;
+  justify-content: start;
+}
+#play {
+  margin-right: 50px;
+  width: 200px;
+  background-image: linear-gradient(to right, blue, purple);
+}
